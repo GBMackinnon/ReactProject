@@ -1,4 +1,3 @@
-import React from "react";
 import './Styles/Footer-Styles.css';
 import facebookLogo from '../assets/Logos/Social-Media/facebook.png';
 import instagramLogo from '../assets/Logos/Social-Media/instagram.png';
