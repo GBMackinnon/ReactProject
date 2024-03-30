@@ -1,11 +1,10 @@
 import React from "react";
+import './footer-styles.css';
 import facebookLogo from './assets/Logos/Social-Media/facebook.png';
 import instagramLogo from './assets/Logos/Social-Media/instagram.png';
 import twitterLogo from './assets/Logos/Social-Media/twitter.png';
 import youtubeLogo from './assets/Logos/Social-Media/youtube.png';
 import whatsappLogo from './assets/Logos/Social-Media/whatsapp.png';
-
-
 
 function Footer() {
     return (
