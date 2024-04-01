@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Highlight from "./Components/Highlights";
 import Services from "./Components/Services";
 import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
 
 import Topiary from './assets/Gardening-Services/Topiary.jpg';
 import './Components/Styles/App-Styles.css';
@@ -13,6 +14,22 @@ function App() {
     <Router>
       <div>
         <Header />
+
+        <Switch>
+          <Route path="/" exact>
+          </Route>
+
+          <Route path="/About">
+            {/* Render your About component here */}
+          </Route>
+          <Route path="/Services">
+            {/* Render your Services component here */}
+          </Route>
+          <Route path="/Contact">
+            <Contact /> {/* Render your Contact component here */}
+          </Route>
+        </Switch>
+
         <Highlight title="First Highlight" description="Experience our beautiful botanic gardens and the most biodiverse place on Earth." imagePath={Topiary} imageDescription="Topiary"/>
         <Highlight title="Second Highlight" description="Experience our beautiful botanic gardens and the most biodiverse place on Earth." imagePath={Topiary} imageDescription="Topiary"/>
 
