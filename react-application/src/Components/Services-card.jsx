@@ -1,6 +1,6 @@
-import './Styles/Services-Styles.css';
+import './Styles/ServiceCard-Styles.css';
 
-function Services(props){
+function ServiceCard(props){
     return(
     <div className="card">
         <div className="card-image">
@@ -14,4 +14,4 @@ function Services(props){
     );
 }
 
-export default Services;
+export default ServiceCard;
