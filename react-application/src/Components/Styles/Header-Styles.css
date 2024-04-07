@@ -1,6 +1,6 @@
 /* Header */
   
-li, a, button {
+li, a{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -36,19 +36,6 @@ header{
 
 .nav-links li a:hover{
     color: #0088a9
-}
-
-button{
-    padding: 9px 25px;
-    background-color: #008285;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover{
-    background-color: #09a4a7;
 }
 
 @media screen and (max-width: 720px) {
