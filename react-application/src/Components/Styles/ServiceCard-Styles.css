@@ -34,8 +34,6 @@
   }    
   
   .card-content {
-    line-height: 1.5;
-    font-size: 1em;
     padding: 15px;            
   }  
   
@@ -44,7 +42,7 @@
   }
   
   .card-content > p{
-    margin: 0px;
+    
   }
   
   @media screen and (max-width: 1100px) {
