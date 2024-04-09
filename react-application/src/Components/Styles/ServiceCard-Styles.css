@@ -24,6 +24,7 @@
     background: #fafafa;
     border-radius: 0%;
     border: 0px;
+    box-shadow: 2px 2px 4px 0 #ccc;
   }
   
   .card-image {
@@ -34,6 +35,8 @@
   }    
   
   .card-content {
+    line-height: 1.5;
+    font-size: 1em;
     padding: 15px;            
   }  
   
@@ -42,7 +45,7 @@
   }
   
   .card-content > p{
-    
+    margin: 0px;
   }
   
   @media screen and (max-width: 1100px) {
