@@ -1,0 +1,40 @@
+.message-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 85%;    
+}
+
+form > input{
+    height: 30px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    padding-bottom: 180px;
+    vertical-align: top;
+    word-wrap: break-word;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500; 
+}
+
+.submit-button{
+    border-radius: 20px;
+    background-color:  #09a4a7;
+    color: white;
+    border: none;
+    font-size: larger;
+}

@@ -24,6 +24,7 @@
     background: #fafafa;
     border-radius: 0%;
     border: 0px;
+    box-shadow: 2px 2px 4px 0 #ccc;
   }
   
   .card-image {

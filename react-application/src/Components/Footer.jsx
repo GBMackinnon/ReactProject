@@ -6,6 +6,11 @@ import youtubeLogo from '../assets/Logos/Social-Media/youtube.png';
 import whatsappLogo from '../assets/Logos/Social-Media/whatsapp.png';
 
 function Footer() {
+    const d = new Date();
+    const year = d.getFullYear();
+
+    let CopywriteStatement = "\u00A9 Lush Landscapes " + year + ". All Rights Reserved";
+
     return (
         <footer>
             <div className="footer-section">
@@ -22,11 +27,12 @@ function Footer() {
                     <h4>Contact Details</h4>
                     <p>01483 389 454</p>
                     <p>info@thelandscapingconsultants.co.uk</p>
+                    <p>{CopywriteStatement}</p>
                     <img className="social-media-icon" src={instagramLogo} alt="Instagram" />
                     <img className="social-media-icon" src={facebookLogo} alt="Facebook" />
                     <img className="social-media-icon" src={twitterLogo} alt="Twitter" />
                     <img className="social-media-icon" src={youtubeLogo} alt="YouTube" />
-                    <img className="social-media-icon" src={whatsappLogo} alt="WhatsApp" />
+                    <img className="social-media-icon" src={whatsappLogo} alt="WhatsApp" />                   
                 </div>
 
                 <div className="services-footer">
