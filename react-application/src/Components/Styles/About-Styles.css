@@ -10,22 +10,16 @@
     margin: 20px;
 }
 
-.about-contents{
-    display: flex;
-    width: 100%
-}
-
 .about-container p{
     line-height: 1.5em;
     font-size: 1.1em;
-    flex-basis: 70%;
-}
-
-.image{
-    
 }
 
 .about-container img{
-    max-width: 100%;
+    width: 40em;
+    float: right;
 }
+
+
+
 

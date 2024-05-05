@@ -7,20 +7,16 @@ function About(props) {
   return (   
     <div className="container">
       <div className="about-container">
-      <div>
-        <h1>{props.title}</h1> 
-        <div className="about-contents">     
-          <p>{props.description}</p>
-          <div className="image">
+        <div>
+          <h1>{props.title}</h1>  
+          <div>
             <img src={aboutImg} alt="gardening" />
-          </div>
-        </div> 
-        </div>
+            <p>{props.description}</p>        
+          </div> 
+        </div>      
       </div>
     </div>
   );
 }
 
 export default About;
-
-
