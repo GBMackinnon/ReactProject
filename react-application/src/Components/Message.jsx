@@ -3,12 +3,13 @@ import React, { useState } from 'react';
 
 function Message() {
 
+    /*
     var initialMessage  = {
         name: "",
         email: "",
         message: ""
     }
-
+    */
     const[name, setName] = useState("");
     const[email, setEmail] = useState("");
     const[message , setMessage] = useState("");
@@ -31,12 +32,6 @@ function Message() {
         setName(n => "");
         setEmail(e => "");
         setMessage(m => "");
-
-        initialMessage  = {
-            name: name,
-            email: email,
-            message: message
-        }
     }
 
 
