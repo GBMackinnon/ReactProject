@@ -9,9 +9,11 @@ function About(props) {
       <div className="about-container">
         <div>
           <h1>{props.title}</h1>  
-          <div>
-            <img src={aboutImg} alt="gardening" />
-            <p>{props.description}</p>        
+          <div className="about-contents">         
+            <p>{props.description}</p>    
+            <div className="image">    
+              <img src={aboutImg} alt="gardening" />
+            </div> 
           </div> 
         </div>      
       </div>

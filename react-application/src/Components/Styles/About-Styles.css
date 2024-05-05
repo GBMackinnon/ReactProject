@@ -16,10 +16,28 @@
 }
 
 .about-container img{
-    width: 40em;
-    float: right;
+    width: 100%;
 }
 
+.about-contents{
+    display: flex;
+}
+
+.image{
+    flex-basis: 50%;
+}
+
+.about-contents p {
+    flex-basis: 50%; 
+    margin-right: 20px; 
+}
+
+@media screen and (max-width: 1200px) {
+    .about-contents{
+        flex-direction: column;
+    }
+  
+  }
 
 
 
