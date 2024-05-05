@@ -27,7 +27,6 @@ header{
 .nav-links li{
     padding: 50px 20px;
     display: inline-block;
-
 }
 
 .nav-links li a{
@@ -38,7 +37,7 @@ header{
     color: #0088a9
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 810px) {
     header{
         flex-direction: column;
         align-content: center;             
@@ -49,7 +48,7 @@ header{
     }
 
     .nav-links li{
-        padding: 0px 20px;               
+        padding: 0px 15px;               
     }
 }
 

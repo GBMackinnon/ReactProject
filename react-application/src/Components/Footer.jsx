@@ -17,16 +17,16 @@ function Footer() {
                 <div className="address-footer">
                     <h4>Address</h4>
                     <p>Unit 1</p>
-                    <p>Normandy Business Park</p>
+                    <p>Marlow Business Park</p>
                     <p>Cobbett Hill Road</p>
-                    <p>Guildford, Surrey</p>
-                    <p>GU3 2BY</p>
+                    <p>Marlow</p>
+                    <p>HP17 2BY</p>
                 </div>
 
                 <div className="contact-footer">
                     <h4>Contact Details</h4>
-                    <p>01483 389 454</p>
-                    <p>info@thelandscapingconsultants.co.uk</p>
+                    <p>01844 23198</p>
+                    <p>lushlandscapes@gmail.com</p>
                     <p>{CopywriteStatement}</p>
                     <img className="social-media-icon" src={instagramLogo} alt="Instagram" />
                     <img className="social-media-icon" src={facebookLogo} alt="Facebook" />
